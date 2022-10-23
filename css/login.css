@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: var(--roxo-escuro);
+}
+:root{
+    --roxo-escuro: #9413f6;
+    --roxo: hsl(260, 81%, 63%);
+    --azul: #88c7f7;
+    --degrade-btn: linear-gradient(#15ffbd, #1cc2ff);
+    --cor-btn: #000000;
+    --color-p: #a1a1a1;
+    --color-p-2: #868585;
+}
+
+.background-roxo{
+    padding: 0 5%;
+    background: var(--roxo-escuro);
+}
+
+/* classes reutilizavies */
+.container{
+    max-width: 1440px;
+    padding: 0 5%;
+    margin: 0 auto;
+}
+
+section,
+footer{
+    padding: 2.7rem 0;
+}
+
+.btn-gradiente{
+   padding: 10px 25px;
+   color: white;
+   border: none; 
+   cursor: pointer;
+   background-image: var(--degrade-btn);
+  
+}
+.btn {
+    padding: 10px 25px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    background-image: var(--cor-btn);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+   
+}
+
+.logo a{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.ul{
+    display: flex;
+    align-items: center;
+}
+
+.ul li{
+    margin: 0 35px;
+    font-size: 15px;
+}
+.ul li a{
+     color: white;
+}
+
+main .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.main-text{
+    width: 50%;
+    color:white;
+}
+
+.main-text h1{
+    font-size: 3.5rem;
+}
+
+.main-text div{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.main-img{
+    width: 50%;
+}
+
+.main-img img{
+    width: 100%;
+}
+
+.menu-icon{
+    display: none ; 
+     position: relative;
+}
+/*//////////////////////////////////////////////////////////////////
+[ Utility ]*/
+
+.txt1 {
+    font-family: Poppins-Regular;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #000000;
+}
+
+.txt2 {
+    font-family: Poppins-Regular;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #ffffff;
+    text-transform: alphacase;
+}
+
+a:link {
+    color:#ffffff;
+    text-decoration:none;
+  }
+  a:visited {
+    color:#ffffff;
+    text-decoration:none;
+  }
+  a:hover {
+    color:#fffefe;
+    text-decoration:underline;
+  }
+  a:active {
+    color:#ffffff;
+    text-decoration:underline;
+  }
+
+/* classes reutilizavies */
+.container {
+    background-color: #fafafa;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgb(255, 255, 255);
+    width: 400px;
+    height: 750px;
+    max-width: 100%;
+    overflow: hidden;
+  }
+  
+  .header {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+  }
+  
+  .form {
+    padding: 20px;
+  }
+  
+  .form-control {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+  }
+  
+  .form-control label {
+    display: inline-block;
+    margin-bottom: 5px;
+  }
+  
+  .form-control input {
+    border: 2px solid #f0f0f0;
+    display: block;
+    border-radius: 10px;
+    font-size: 14px;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .form-control i {
+    position: absolute;
+    top: 45px;
+    right: 10px;
+    visibility: hidden;
+  }
+  
+  .form-control small {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+  }
+  
+  .form button {
+    background-color: #fc00ff;
+    border: 2px solid #fc00ff;
+    color: #fff;
+    font-size: 14px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  /* Error and Success */
+  .form-control.success input {
+    border-color: #2ecc71;
+  }
+  
+  .form-control.error input {
+    border-color: #e74c3c;
+  }
+  
+  .form-control.success i.fa-check-circle {
+    color: #2ecc71;
+    visibility: visible;
+  }
+  
+  .form-control.error i.fa-exclamation-circle {
+    color: #e74c3c;
+    visibility: visible;
+  }
+  
+  .form-control.error small {
+    visibility: visible;
+    color: #e74c3c;
+  }
