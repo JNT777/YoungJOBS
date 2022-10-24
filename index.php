@@ -105,7 +105,7 @@
                     <h2>De um jeito totalmente inovador</h2>
 
                     <div>
-                        <a href="login2.html"><button class="btn-gradiente">Se inscrever agora</button></a>
+                        <a href="login2.php"><button class="btn-gradiente">Se inscrever agora</button></a>
                         <img src="img/verificado.png" alt="verificado">
                     </div>
                 </div>
