@@ -13,7 +13,7 @@
             <div class="container">
                 <nav>
                     <div class="logo">
-                        <a href="index.html"><img src="img/logo_fundo preto_preview_rev_1.png" alt="logo site" width="100%" height="100%"> </a>
+                        <a href="index.php"><img src="img/logo_fundo preto_preview_rev_1.png" alt="logo site" width="100%" height="100%"> </a>
                     </div>
                     <ul class="ul ativo">
                         <li> <a href="index.html"> Home </a></li>
@@ -33,13 +33,13 @@
     <div class="containers">
         <div class="form-image">
         <div class="form">
-            <form action="#">
+            <form action="/config/configR.php" method="POST">
                 <div class="form-header">
                     <div class="title">
                         <h1>Cadastro do Candidato(a)</h1>
                     </div>
                     <div class="login-button">
-                        <button><a href="login2.html">Entrar</a></button>
+                        <button><a href="login2.php">Entrar</a></button>
                     </div>
                 </div>
 
@@ -51,22 +51,22 @@
 
                     <div class="input-box">
                         <label for="email">E-mail:</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Insira seu emai aqui">
+                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Insira seu emai aqui" name="email">
                     </div>
 
                     <div class="input-box">
                     <label for="number">Telefone:</label>
-                    <input type="text" class="form-control phone-ddd-mask" placeholder="Ex.: (00) 0000-0000">
+                    <input type="text" class="form-control phone-ddd-mask" placeholder="Ex.: (00) 0000-0000" name="telefone">
                 </div>
 
                     <div class="input-box">
                         <label for="password">Senha:</label>
-                        <input id="password" type="password" name="password" placeholder="Digite sua senha" required>
+                        <input id="password" type="password" name="senha" placeholder="Digite sua senha" required>
                     </div>
 
                     <div class="input-box">
                         <label for="confirmPassword">Confirme sua Senha:</label>
-                        <input id="confirmPassword" type="password" name="confirmPassword" placeholder="Digite sua senha novamente" required>
+                        <input id="confirmPassword" type="password" name="confirmar" placeholder="Digite sua senha novamente" required>
                     </div>
 
                 </div>
@@ -78,22 +78,22 @@
 
                     <div class="gender-group">
                         <div class="gender-input">
-                            <input id="female" type="radio" name="gender">
+                            <input id="female" type="radio" name="gendero">
                             <label for="female">Feminino</label>
                         </div>
 
                         <div class="gender-input">
-                            <input id="male" type="radio" name="gender">
+                            <input id="male" type="radio" name="gendero">
                             <label for="male">Masculino</label>
                         </div>
 
                         <div class="gender-input">
-                            <input id="others" type="radio" name="gender">
+                            <input id="others" type="radio" name="gendero">
                             <label for="others">Outros</label>
                         </div>
 
                         <div class="gender-input">
-                            <input id="none" type="radio" name="gender">
+                            <input id="none" type="radio" name="gendero">
                             <label for="none">Prefiro não dizer</label>
                         </div>
                     </div>
@@ -102,7 +102,7 @@
                 <br>
                 <div class="input-box">
                     <label for="cpf">CPF:</label>
-                    <input type="text" class="form-control cpf-mask" placeholder="Ex.: 000.000.000-00">
+                    <input type="text" class="form-control cpf-mask" name="cpf" placeholder="Ex.: 000.000.000-00">
                 </div>
 
             <div class="input-box">
@@ -112,7 +112,7 @@
 
                 <div class="input-box">
                     <label for="cep">CEP:</label>
-                    <input type="text" class="form-control cep-mask" placeholder="Ex.: 00000-000">
+                    <input type="text" class="form-control cep-mask" name="cep" placeholder="Ex.: 00000-000">
                 </div>
 
                 <div class="input-box">
@@ -126,17 +126,18 @@
                     </div>
 
                     <div class="input-box">
-                        <label for="cep_cidade" class="input-subtitle">Cidade/Estado:</label>
-    <select id="cep_cidade"><option value="1">Barueri/SP</option><option value="2">Carapicuíba/SP</option><option value="3">Jandira
-    /SP</option></select>
-</div>
+                    <label for="bairro">Cidade:</label>
+                    <input id="cidade" type="text" name="cidade" placeholder="Digite o nome da cidade onde mora" required>
+                    </div>
+
+                
                 
                 <div class="reset-button" type="reset">           
                 <button>Redefinir</button>
             </div>  
 
-                <div class="continue-button" type="submit">
-                    <button><a href="#">Enviar</a> </button>
+                <div class="continue-button" >
+                    <button name="submit" type="submit">Enviar</button>
                 </div>
 
             </form>

@@ -133,14 +133,14 @@
 					</span>
 
                         <div class="wrap-input100 validate-input m-b-23 " data-validate="O nome de usuário inválido ">
-                            <span class="label-input100 ">Nome de Usuário</span>
-                            <input class="input100 " type="text " name="username " placeholder="Digite seu nome de usuário ">
+                            <span class="label-input100 ">Email</span>
+                            <input class="input100 " type="text " name="email" placeholder="Digite seu email ">
                             <span class="focus-input100 " data-symbol="&#xf206; "></span>
                         </div>
 
-                        <div class="wrap-input100 validate-input " data-validate="Senha inválida ">
+                        <div class="wrap-input100 validate-input " >
                             <span class="label-input100 ">Senha</span>
-                            <input class="input100 " type="password" name="password" pattern="" placeholder="Digite sua senha ">
+                            <input class="input100 " type="password" name="senha" pattern="" placeholder="Digite sua senha ">
                             <span class="focus-input100 " data-symbol="&#xf190; "></span>
                         </div>
 
@@ -153,9 +153,9 @@
                         <div class="container-login100-form-btn ">
                             <div class="wrap-login100-form-btn ">
                                 <div class="login100-form-bgbtn "></div>
-                                <button class="login100-form-btn ">
-                                    <a href="vagas_nova.html" class="txt2 "> 
-								Registrar
+                                <button name="submit" type="submit" class="login100-form-btn ">
+                                    <a href="vagas_nova.php" class="txt2 "> 
+								Entrar
 							</button>
                             </div>
 
@@ -170,7 +170,7 @@
                             <div class="wrap-login100-form-btn ">
                                 <div class="login100-form-bgbtn "></div>
                                 <button class="login100-form-btn ">
-                        <a href="cadastrocandidato.html " class="txt2 ">
+                        <a href="cadastrocandidato.php " class="txt2 ">
 						 Cadastro Candidato 
 						</button>
                             </div>
@@ -179,7 +179,7 @@
                                 <div class="wrap-login100-form-btn ">
                                     <div class="login100-form-bgbtn "></div>
                                     <button class="login100-form-btn ">
-                    <a href="cadastroempresa.html " class="txt2 "> 
+                    <a href="cadastroempresa.php " class="txt2 "> 
 						Cadastro Empresa
 						</button>
                                 </div>
@@ -209,7 +209,6 @@
 <!--===============================================================================================-->
                 
 	<script src="js/main.js"></script>
-    <script src="js/validarsenha.js"></script>
                 </div>
             </div>
         </div>
