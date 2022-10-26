@@ -102,12 +102,12 @@
         <div class="background-roxo">
             <nav>
                 <div class="logo">
-                    <a href="index.html"><img src="img/logo_fundo preto_preview_rev_1.png" alt="logo site" width="100%" height="100%"> </a>
+                    <a href="index.php"><img src="img/logo_fundo preto_preview_rev_1.png" alt="logo site" width="100%" height="100%"> </a>
                 </div>
                 <ul class="ul ativo">
-                    <li> <a href="index.html"> Home </a></li>
-                    <li> <a href="login2.html"> Login </a></li>
-                    <li> <a href="vagas_nova.html"> Vagas </a></li>
+                    <li> <a href="index.php"> Home </a></li>
+                    <li> <a href="login2.php"> Login </a></li>
+                    <li> <a href="vagas_nova.php"> Vagas </a></li>
                     <li> <a href="#"></a></li>
                     <li> <a href="#"></a></li>
 

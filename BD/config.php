@@ -2,8 +2,8 @@
 
     $dbHost = 'Localhost';
     $dbUserName = 'root';
-    $dbPassword = '@robodoido13';
-    $dbName = 'bdtcc';
+    $dbPassword = '<<SUA SENHA>>';
+    $dbName = '<<NOME DO SEU BANCO DE DADOS>>';
 
     $conexao = new mysqli($dbHost, $dbUserName, $dbPassword, $dbName);
     if ($conexao -> connect_errno){
