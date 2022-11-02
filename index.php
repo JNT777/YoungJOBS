@@ -159,7 +159,7 @@
             </div>
             <div class="card">
                 <img src="img/alcance.png" alt="alcance">
-                <h3 class="titulo">Alcançamos uma nova área de publicação</h3><p>Oferecemos nosso serviços em Barueri,Carapucuíba e Jandira.</p>
+                <h3 class="titulo">Alcançamos uma nova área de publicação</h3><p>Oferecemos nosso serviços em Barueri,Carapicuíba e Jandira.</p>
             </div>
         </div>
     </section>
@@ -171,7 +171,7 @@
             </div>
             <div id="quemsomos" class="banner-text">
                 <h2>Quem Somos</h2>
-                <p>Somos a YoungJOBS uma nova plataforma no ramo de agências de empregos, mas não somos como as convencionais, sabe o porquê? Vimos em nossas necessidades a possibilidade de criar algo novo que favorece você mesmo , jovem que procura ter sua primeira experiência profissional por  isso criamos a YoungJOBS, para facilitar sua entrada no mercado de trabalho. Mas e a história de não ser mais uma igual as outras. Nós diferenciamos das outras por sermos uma plataforma exclusiva para jovens e atuar ainda atuar em mais de duas cidades da região metropolitana de São Paulo.</p>
+                <p>Somos a YoungJOBS uma nova plataforma no ramo de agências de empregos, mas não somos como as convencionais, sabe o porquê? Vimos em nossas necessidades a possibilidade de criar algo novo que favorece você mesmo , jovem que procura ter sua primeira experiência profissional por  isso criamos a YoungJOBS, para facilitar sua entrada no mercado de trabalho. Mas e a história de não ser mais uma igual as outras. Nós diferenciamos das outras por sermos uma plataforma exclusiva para jovens e ainda atuar em mais de duas cidades da região metropolitana de São Paulo.</p>
                 <img src="img/user-happy.png" alt="">
                 <p><b>+45 usuarios satisfeitos</b></p>
             </div>
